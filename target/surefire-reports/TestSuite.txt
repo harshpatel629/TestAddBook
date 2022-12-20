@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 788.906 s <<< FAILURE! - in TestSuite
+TestClearButton(AutomationTest.EditEntry)  Time elapsed: 3.485 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at AutomationTest.EditEntry.TestClearButton(EditEntry.java:108)
+

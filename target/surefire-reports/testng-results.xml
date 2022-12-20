@@ -1,0 +1,2903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="36" passed="35" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-15T21:29:41Z" name="Suite" finished-at="2022-12-15T21:42:46Z" duration-ms="784926">
+    <groups>
+    </groups>
+    <test started-at="2022-12-15T21:29:41Z" name="Test" finished-at="2022-12-15T21:42:46Z" duration-ms="784926">
+      <class name="AutomationTest.AddEntry">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:41Z" name="beforeSuite" finished-at="2022-12-15T16:29:41Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:29:41Z" name="beforeSuite" finished-at="2022-12-15T16:29:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:29:41Z" name="beforeTest" finished-at="2022-12-15T16:29:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:41Z" name="beforeTest" finished-at="2022-12-15T16:29:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:29:41Z" name="beforeSuite" finished-at="2022-12-15T16:29:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:29:41Z" name="beforeTest" finished-at="2022-12-15T16:29:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:41Z" name="beforeClass" finished-at="2022-12-15T16:29:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:41Z" name="beforeMethod" finished-at="2022-12-15T16:29:49Z" duration-ms="7942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddressBookAccessAddNewEntryPage()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:49Z" name="AddressBookAccessAddNewEntryPage" finished-at="2022-12-15T16:29:51Z" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressBookAccessAddNewEntryPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:51Z" name="afterMethod" finished-at="2022-12-15T16:29:51Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:51Z" name="beforeMethod" finished-at="2022-12-15T16:29:56Z" duration-ms="4589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddressBookAccessMainMenuPage()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:56Z" name="AddressBookAccessMainMenuPage" finished-at="2022-12-15T16:29:57Z" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressBookAccessMainMenuPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:57Z" name="afterMethod" finished-at="2022-12-15T16:29:57Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:29:57Z" name="beforeMethod" finished-at="2022-12-15T16:30:02Z" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AddressBookListAllEntries()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:02Z" name="AddressBookListAllEntries" finished-at="2022-12-15T16:30:03Z" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressBookListAllEntries -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:03Z" name="afterMethod" finished-at="2022-12-15T16:30:03Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:03Z" name="beforeMethod" finished-at="2022-12-15T16:30:08Z" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CheckFieldsAddNewEntryPage()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:08Z" name="CheckFieldsAddNewEntryPage" finished-at="2022-12-15T16:30:10Z" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFieldsAddNewEntryPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:10Z" name="afterMethod" finished-at="2022-12-15T16:30:10Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:10Z" name="beforeMethod" finished-at="2022-12-15T16:30:15Z" duration-ms="4637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:15Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:30:21Z" duration-ms="6378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dorian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mullins]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Laoreet Posuere Enim Industries]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7613 Consectetuer St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ap #853-4513 Cubilia St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8971 Interdum. Av.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Saint John]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[New Brunswick]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[E3M 4E3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[mollis.vitae.posuere@condimentumeget.ca]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ac.sem@euismodenimEtiam.ca]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[semper@Phasellusliberomauris.ca]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-979-573-2012]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-430-644-4101]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-598-457-0450]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[dui@erat.net]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[luctus.felis@sitamet.ca]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[vel.arcu.Curabitur@interdumenimnon.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:21Z" name="afterMethod" finished-at="2022-12-15T16:30:21Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:21Z" name="beforeMethod" finished-at="2022-12-15T16:30:26Z" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:26Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:30:32Z" duration-ms="6049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Velez]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Magnis Dis Parturient Institute]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1250 Viverra. Av.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ap #293-5496 Non St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4907 Ut Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Chilliwack]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[British Columbia]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[V0Y 1A4]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[laoreet@inceptos.net]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[accumsan.convallis@montes.ca]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[condimentum.eget.volutpat@felispurus.com]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-710-779-7342]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-986-689-8189]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-589-175-7032]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[posuere@elitsed.org]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[urna.nec.luctus@sit.net]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[luctus@semper.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:32Z" name="afterMethod" finished-at="2022-12-15T16:30:32Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:32Z" name="beforeMethod" finished-at="2022-12-15T16:30:36Z" duration-ms="4149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:36Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:30:42Z" duration-ms="6335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Spencer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lorem Ipsum Corporation]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P.O. Box 944, 6525 Risus St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ap #245-3944 Primis St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3673 Turpis Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Pangnirtung]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nunavut]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[X3P 9T7]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ac@magnisdis.co.uk]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[commodo.tincidunt.nibh@magnaLoremipsum.org]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[mauris.sapien@urna.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-780-968-7633]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-772-708-7881]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-296-765-6830]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[libero.nec.ligula@cursusdiamat.net]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[placerat.augue@ipsumnonarcu.ca]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[arcu.et@odiotristique.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:42Z" name="afterMethod" finished-at="2022-12-15T16:30:42Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:42Z" name="beforeMethod" finished-at="2022-12-15T16:30:48Z" duration-ms="6141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:48Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:30:54Z" duration-ms="5868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Graham]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mcpherson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nisl Sem Consequat Ltd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P.O. Box 597, 6329 At, Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[726-4405 Dolor Av.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[324-4639 Arcu. Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Fredericton]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[New Brunswick]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[E2M 8N7]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[eu@ligula.org]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[dolor@Nuncullamcorper.edu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[semper.rutrum.Fusce@egestasblanditNam.co.uk]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-361-181-1934]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-100-541-1279]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-467-784-7954]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[faucibus.orci.luctus@auguescelerisque.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[quis.lectus.Nullam@ipsumDonecsollicitudin.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Proin.non.massa@sapienimperdiet.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:54Z" name="afterMethod" finished-at="2022-12-15T16:30:54Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:54Z" name="beforeMethod" finished-at="2022-12-15T16:30:59Z" duration-ms="4920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:30:59Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:31:06Z" duration-ms="6423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Herrod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dotson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Massa Industries]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #358-2564 Aliquet. Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[P.O. Box 174, 2545 Commodo Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 900, 1942 Vestibulum Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Drayton Valley]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Alberta]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[T8S 5N6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Maecenas.iaculis.aliquet@ipsumDonecsollicitudin.ca]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[urna.et.arcu@elit.co.uk]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ligula.tortor.dictum@ipsumsodales.edu]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-341-928-0811]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-225-263-4116]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-854-725-8467]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[non.justo@Etiam.co.uk]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[in.lobortis.tellus@magnaSuspendisse.org]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Curae@blanditNamnulla.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:06Z" name="afterMethod" finished-at="2022-12-15T16:31:06Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:06Z" name="beforeMethod" finished-at="2022-12-15T16:31:11Z" duration-ms="5368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:11Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:31:19Z" duration-ms="8191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nasim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Daniels]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fringilla Ornare Industries]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9419 Hymenaeos. Avenue]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1841 Erat Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2836 Vivamus Av.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Cambridge Bay]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nunavut]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[X1S 8K6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[amet.orci.Ut@Inscelerisque.edu]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ac.mattis.semper@massaVestibulumaccumsan.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Sed.pharetra@nibhPhasellus.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-737-441-8369]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-337-154-5501]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-802-523-5812]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[turpis@vulputatemauris.co.uk]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[mollis@tellusPhaselluselit.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[nulla.In.tincidunt@vitaemaurissit.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:19Z" name="afterMethod" finished-at="2022-12-15T16:31:19Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:19Z" name="beforeMethod" finished-at="2022-12-15T16:31:25Z" duration-ms="5966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:25Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:31:32Z" duration-ms="6331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alfonso]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Koch]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nec Quam Inc.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #757-5284 Enim. St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[754-5354 Sodales Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ap #902-3518 Risus Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Aklavik]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Northwest Territories]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[X7E 1J2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[auctor@ligula.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[vehicula.aliquet.libero@Suspendisse.org]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[tempor.arcu@elementumpurusaccumsan.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-503-847-4580]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-513-763-5366]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-387-376-7377]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[feugiat.non@eratin.ca]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[tincidunt@metus.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[augue.id@anteblanditviverra.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:32Z" name="afterMethod" finished-at="2022-12-15T16:31:32Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:32Z" name="beforeMethod" finished-at="2022-12-15T16:31:36Z" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:36Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:31:43Z" duration-ms="6514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Estes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vivamus Ltd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #461-7460 Cursus Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6320 Arcu Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 144, 8204 Eu Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Dieppe]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[New Brunswick]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[E4L 4P2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[blandit.Nam@pede.edu]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[diam.Duis.mi@Nullatempor.net]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[pede.Suspendisse@iaculisaliquet.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-228-919-2389]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-466-739-3819]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-721-369-5470]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[ut.molestie@risusa.org]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[velit.Cras.lorem@Integer.ca]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[elementum@Aliquam.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:43Z" name="afterMethod" finished-at="2022-12-15T16:31:43Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:43Z" name="beforeMethod" finished-at="2022-12-15T16:31:48Z" duration-ms="5144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:48Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:31:55Z" duration-ms="6608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Malik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mathews]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ipsum Curabitur Consequat Ltd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P.O. Box 398, 5584 Ac St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[631-7465 Luctus Av.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 443, 1166 Neque. St.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Spaniards Bay]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Newfoundland and Labrador]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[A7N 2L8]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Integer.eu.lacus@aliquetdiamSed.org]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[turpis.Aliquam.adipiscing@tinciduntcongueturpis.net]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Duis@aduiCras.org]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-658-618-7134]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-851-461-3084]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-806-897-2416]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[odio.sagittis@turpisnonenim.ca]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[luctus.aliquet.odio@leoin.ca]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[a.nunc.In@sedfacilisisvitae.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:55Z" name="afterMethod" finished-at="2022-12-15T16:31:55Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:31:55Z" name="beforeMethod" finished-at="2022-12-15T16:32:00Z" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:00Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:32:06Z" duration-ms="6118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mufutau]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wolf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pellentesque Limited]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #980-2209 Tortor Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[339-7366 Pede. Av.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 351, 390 Rhoncus. Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Watson Lake]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Yukon]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Y5A 3B3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[at@utpellentesque.net]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[non@quamquisdiam.ca]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[erat.in@Proin.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-512-577-0505]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-198-193-9115]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-494-443-3767]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[aliquet.metus@nisinibhlacinia.org]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[imperdiet@purusDuis.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Mauris.vel.turpis@dolorsitamet.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:06Z" name="afterMethod" finished-at="2022-12-15T16:32:06Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:06Z" name="beforeMethod" finished-at="2022-12-15T16:32:12Z" duration-ms="5890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:12Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:32:19Z" duration-ms="7272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patrick]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Baxter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Neque Sed Dictum Institute]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[912-8029 Turpis Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1360 Fringilla. St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ap #291-4020 Odio. Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Municipal District]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nova Scotia]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[B6G 0R2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ultrices.posuere@dolordapibus.ca]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ante@augue.edu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[vitae.velit@convallisconvallisdolor.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-712-638-0302]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-423-287-5651]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-397-417-0744]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[eu.neque.pellentesque@dui.org]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[arcu.eu@Suspendisse.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[sociis.natoque@scelerisquesed.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:19Z" name="afterMethod" finished-at="2022-12-15T16:32:19Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:19Z" name="beforeMethod" finished-at="2022-12-15T16:32:25Z" duration-ms="5876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:25Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:32:32Z" duration-ms="6735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tiger]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dickson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lobortis Ultrices LLP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #437-5395 Orci Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6177 Ullamcorper, Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9831 Suspendisse St.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Newmarket]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[L6N 8K8]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[mollis@fames.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[tellus@dictumsapienAenean.org]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[pede.et@Fuscefermentum.ca]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-987-638-5407]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-498-134-3525]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-388-206-7667]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[nec@utpharetra.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[eu.metus@ametlorem.edu]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[eu.tellus@cursus.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:32Z" name="afterMethod" finished-at="2022-12-15T16:32:32Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:32Z" name="beforeMethod" finished-at="2022-12-15T16:32:37Z" duration-ms="4801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:37Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:32:44Z" duration-ms="6837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fuller]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Phelps]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Neque Sed Corp.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #357-6553 Consequat St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[276-5545 Quam St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 457, 9709 Rutrum Avenue]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Brandon]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Manitoba]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[R6M 6Y6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ultrices.sit.amet@ipsum.net]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[dolor@Fuscealiquet.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[odio.Nam.interdum@semmagnanec.org]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-405-187-4073]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-224-441-7739]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-259-109-9361]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Nam@volutpatNulladignissim.ca]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[at@diamdictum.edu]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[gravida@dolor.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:44Z" name="afterMethod" finished-at="2022-12-15T16:32:44Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:44Z" name="beforeMethod" finished-at="2022-12-15T16:32:50Z" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:50Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:32:58Z" duration-ms="7743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gates]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sed Turpis Ltd]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #957-2158 Proin Avenue]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[675-2800 Nullam Avenue]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[P.O. Box 590, 6860 Dui St.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Stratford]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Prince Edward Island]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C4P 7L4]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[fermentum@sagittis.net]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sed@nisl.edu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Suspendisse.eleifend@sollicitudinorci.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-232-244-3230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-632-309-7403]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-487-472-2581]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[diam.lorem.auctor@ut.net]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[diam@auctornunc.org]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[felis.ullamcorper.viverra@dictumPhasellus.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:58Z" name="afterMethod" finished-at="2022-12-15T16:32:58Z" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:32:58Z" name="beforeMethod" finished-at="2022-12-15T16:33:21Z" duration-ms="23011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:21Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:33:31Z" duration-ms="9681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Luke]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Morgan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A Dui LLP]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[820 Et Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[717-2381 Aliquam Street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ap #572-5792 Dictum Avenue]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Holman]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Northwest Territories]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[X7V 6T4]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[at.pede.Cras@arcuAliquam.ca]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[dictum@semut.co.uk]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[vitae@suscipit.co.uk]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-564-169-0958]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-258-520-2178]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-737-312-1791]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[ut.quam.vel@mattisornarelectus.edu]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[pharetra.Nam@massaVestibulum.co.uk]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[cursus.et.eros@mienimcondimentum.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:31Z" name="afterMethod" finished-at="2022-12-15T16:33:31Z" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:31Z" name="beforeMethod" finished-at="2022-12-15T16:33:45Z" duration-ms="14244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:45Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:33:53Z" duration-ms="7866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harlan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kerr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Orci Foundation]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4894 Nunc Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ap #187-8969 Magna, St.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2055 Pretium Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Iqaluit]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nunavut]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[X7B 7T8]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[consectetuer@disparturientmontes.co.uk]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[eros.turpis.non@Proin.com]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[eu@estNunclaoreet.org]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-847-171-0791]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-838-701-6242]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-875-729-6458]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[nibh@facilisisnonbibendum.com]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Quisque.purus.sapien@magnaetipsum.edu]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Vivamus.sit@congueIn.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:53Z" name="afterMethod" finished-at="2022-12-15T16:33:53Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:33:53Z" name="beforeMethod" finished-at="2022-12-15T16:35:19Z" duration-ms="85785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:19Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:35:37Z" duration-ms="17518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Isaac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Holloway]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lobortis Inc.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P.O. Box 536, 1240 Eu, Av.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[984 Pede, Rd.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1915 Adipiscing Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Flin Flon]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Manitoba]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[R1E 5G2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[mauris.eu@enimCurabiturmassa.co.uk]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[mi.lorem@nec.ca]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[erat@Vivamus.org]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-209-923-7093]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-909-846-0166]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-534-641-0788]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[ligula.Donec.luctus@semper.edu]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[non@Etiam.net]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[metus.urna@hendreritDonecporttitor.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:37Z" name="afterMethod" finished-at="2022-12-15T16:35:37Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:37Z" name="beforeMethod" finished-at="2022-12-15T16:35:44Z" duration-ms="7045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:44Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:35:54Z" duration-ms="10294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lynn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sociis Natoque Penatibus Inc.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P.O. Box 788, 413 Lectus St.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ap #554-6085 Semper Road]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[973 Facilisis Road]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Charlottetown]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Prince Edward Island]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C3R 3X5]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[tortor@QuisquevariusNam.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Sed.id.risus@malesuadafames.ca]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[a.neque@velquamdignissim.net]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-577-987-3326]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-858-572-8360]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-964-367-2673]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[vitae.semper@Proinvelit.org]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[pretium@idante.com]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[volutpat.nunc@Phaselluslibero.net]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:54Z" name="afterMethod" finished-at="2022-12-15T16:35:54Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:35:54Z" name="beforeMethod" finished-at="2022-12-15T16:36:11Z" duration-ms="16302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:36:11Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:36:20Z" duration-ms="9630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Crane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Donec Egestas Aliquam Associates]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ap #537-7579 Id Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2790 Non, Av.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[888-8300 Facilisis Av.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Saint John]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[New Brunswick]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[E3V 1G6]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[enim@magna.ca]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sem.elit@velitegestas.co.uk]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[rutrum@liberolacusvarius.ca]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-669-130-8560]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-745-605-8466]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-498-638-8442]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[interdum.enim@dolor.edu]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[quis.pede.Suspendisse@mifelisadipiscing.edu]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[vitae.erat.vel@metussitamet.edu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:36:20Z" name="afterMethod" finished-at="2022-12-15T16:36:21Z" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:36:21Z" name="beforeMethod" finished-at="2022-12-15T16:38:29Z" duration-ms="128051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestAddNewEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:29Z" name="TestAddNewEntry" data-provider="getTestData" finished-at="2022-12-15T16:38:37Z" duration-ms="8175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vernon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Charles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[In Corp.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[714-3552 Tempor, Rd.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7842 In Street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[509-6064 Vel Rd.]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Stratford]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Prince Edward Island]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C5G 6N2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ad@natoquepenatibuset.net]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Donec.at.arcu@Curabitur.edu]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[accumsan.neque@magnisdisparturient.com]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Home Fax]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1-431-150-0324]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[1-608-984-7939]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Work Fax]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[1-631-270-4283]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[neque.Sed@utnullaCras.co.uk]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Suspendisse.tristique@turpisNulla.ca]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[tempor.bibendum@Inornaresagittis.ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddNewEntry -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:37Z" name="afterMethod" finished-at="2022-12-15T16:38:37Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:37Z" name="beforeMethod" finished-at="2022-12-15T16:38:51Z" duration-ms="14059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEmailPhoneWebValidation()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:51Z" name="TestEmailPhoneWebValidation" finished-at="2022-12-15T16:38:53Z" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEmailPhoneWebValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:53Z" name="afterMethod" finished-at="2022-12-15T16:38:53Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:38:53Z" name="beforeMethod" finished-at="2022-12-15T16:39:26Z" duration-ms="33244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestNameFieldsValidation()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:39:26Z" name="TestNameFieldsValidation" finished-at="2022-12-15T16:39:29Z" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNameFieldsValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:39:29Z" name="afterMethod" finished-at="2022-12-15T16:39:29Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:39:29Z" name="afterClass" finished-at="2022-12-15T16:39:29Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:42:46Z" name="afterTest" finished-at="2022-12-15T16:42:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:46Z" name="afterTest" finished-at="2022-12-15T16:42:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:42:46Z" name="afterTest" finished-at="2022-12-15T16:42:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:AutomationTest.AddEntry@13d4992d]" started-at="2022-12-15T16:42:46Z" name="afterSuite" finished-at="2022-12-15T16:42:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:46Z" name="afterSuite" finished-at="2022-12-15T16:42:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:42:46Z" name="afterSuite" finished-at="2022-12-15T16:42:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- AutomationTest.AddEntry -->
+      <class name="AutomationTest.EditEntry">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:39:29Z" name="beforeClass" finished-at="2022-12-15T16:39:29Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:39:29Z" name="beforeMethod" finished-at="2022-12-15T16:39:46Z" duration-ms="17518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestCancelButton()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:39:46Z" name="TestCancelButton" finished-at="2022-12-15T16:39:48Z" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCancelButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:39:48Z" name="afterMethod" finished-at="2022-12-15T16:39:48Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:39:48Z" name="beforeMethod" finished-at="2022-12-15T16:40:15Z" duration-ms="26567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestClearButton()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:15Z" name="TestClearButton" finished-at="2022-12-15T16:40:18Z" duration-ms="3327" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at AutomationTest.EditEntry.TestClearButton(EditEntry.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestClearButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:18Z" name="afterMethod" finished-at="2022-12-15T16:40:19Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:19Z" name="beforeMethod" finished-at="2022-12-15T16:40:36Z" duration-ms="17079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEditContactButton()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:36Z" name="TestEditContactButton" finished-at="2022-12-15T16:40:37Z" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditContactButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:37Z" name="afterMethod" finished-at="2022-12-15T16:40:37Z" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:37Z" name="beforeMethod" finished-at="2022-12-15T16:40:56Z" duration-ms="18520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEditContactURL()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:56Z" name="TestEditContactURL" finished-at="2022-12-15T16:40:58Z" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditContactURL -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:58Z" name="afterMethod" finished-at="2022-12-15T16:40:58Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:40:58Z" name="beforeMethod" finished-at="2022-12-15T16:41:07Z" duration-ms="9335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEditEmailAddressPhoneValidation()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:07Z" name="TestEditEmailAddressPhoneValidation" finished-at="2022-12-15T16:41:16Z" duration-ms="8628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditEmailAddressPhoneValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:16Z" name="afterMethod" finished-at="2022-12-15T16:41:16Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:16Z" name="beforeMethod" finished-at="2022-12-15T16:41:24Z" duration-ms="7814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEditFunctionality()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:24Z" name="TestEditFunctionality" finished-at="2022-12-15T16:41:40Z" duration-ms="15720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:40Z" name="afterMethod" finished-at="2022-12-15T16:41:40Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:40Z" name="beforeMethod" finished-at="2022-12-15T16:41:52Z" duration-ms="12336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestEditNamesValidation()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:41:52Z" name="TestEditNamesValidation" finished-at="2022-12-15T16:42:01Z" duration-ms="9014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEditNamesValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:42:01Z" name="afterMethod" finished-at="2022-12-15T16:42:02Z" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AutomationTest.EditEntry@302f7971]" started-at="2022-12-15T16:42:02Z" name="afterClass" finished-at="2022-12-15T16:42:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AutomationTest.EditEntry -->
+      <class name="AutomationTest.ViewEntry">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:02Z" name="beforeClass" finished-at="2022-12-15T16:42:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:02Z" name="beforeMethod" finished-at="2022-12-15T16:42:09Z" duration-ms="7543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestDisplayedResults()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:09Z" name="TestDisplayedResults" finished-at="2022-12-15T16:42:12Z" duration-ms="2856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDisplayedResults -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:12Z" name="afterMethod" finished-at="2022-12-15T16:42:12Z" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:12Z" name="beforeMethod" finished-at="2022-12-15T16:42:31Z" duration-ms="18594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestReturnButton()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:31Z" name="TestReturnButton" finished-at="2022-12-15T16:42:33Z" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestReturnButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:33Z" name="afterMethod" finished-at="2022-12-15T16:42:34Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:34Z" name="beforeMethod" finished-at="2022-12-15T16:42:44Z" duration-ms="9974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TestViewEntryButton()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:44Z" name="TestViewEntryButton" finished-at="2022-12-15T16:42:46Z" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestViewEntryButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:46Z" name="afterMethod" finished-at="2022-12-15T16:42:46Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AutomationTest.ViewEntry@332729ad]" started-at="2022-12-15T16:42:46Z" name="afterClass" finished-at="2022-12-15T16:42:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- AutomationTest.ViewEntry -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

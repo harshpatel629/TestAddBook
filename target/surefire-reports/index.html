@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\dhruv\Desktop\SST Harsh\TestAddBook\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 1 failed,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestClearButton">TestClearButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="AddressBookAccessAddNewEntryPage">AddressBookAccessAddNewEntryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="AddressBookAccessMainMenuPage">AddressBookAccessMainMenuPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="AddressBookListAllEntries">AddressBookListAllEntries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="CheckFieldsAddNewEntryPage">CheckFieldsAddNewEntryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av....)">TestAddNewEntry(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 R...)">TestAddNewEntry(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing R...)">TestAddNewEntry(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper R...)">TestAddNewEntry(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590...)">TestAddNewEntry(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457...)">TestAddNewEntry(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Su...)">TestAddNewEntry(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Su...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Ho...)">TestAddNewEntry(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Ho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 V...)">TestAddNewEntry(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 V...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 3...)">TestAddNewEntry(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 3...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubili...)">TestAddNewEntry(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubili...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford,...)">TestAddNewEntry(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 490...)">TestAddNewEntry(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 490...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Fa...)">TestAddNewEntry(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Fa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd.,...)">TestAddNewEntry(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd.,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Str...)">TestAddNewEntry(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Str...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus ...)">TestAddNewEntry(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap...)">TestAddNewEntry(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqa...)">TestAddNewEntry(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestAddNewEntry(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primi...)">TestAddNewEntry(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestCancelButton">TestCancelButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.ViewEntry" class="method navigator-link" hash-for-method="TestDisplayedResults">TestDisplayedResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestEditContactButton">TestEditContactButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestEditContactURL">TestEditContactURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestEditEmailAddressPhoneValidation">TestEditEmailAddressPhoneValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestEditFunctionality">TestEditFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.EditEntry" class="method navigator-link" hash-for-method="TestEditNamesValidation">TestEditNamesValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestEmailPhoneWebValidation">TestEmailPhoneWebValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.AddEntry" class="method navigator-link" hash-for-method="TestNameFieldsValidation">TestNameFieldsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.ViewEntry" class="method navigator-link" hash-for-method="TestReturnButton">TestReturnButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="AutomationTest.ViewEntry" class="method navigator-link" hash-for-method="TestViewEntryButton">TestViewEntryButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">AutomationTest.EditEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestClearButton">
+                  </a> <!-- TestClearButton -->
+                  <span class="method-name">TestClearButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at AutomationTest.EditEntry.TestClearButton(EditEntry.java:108)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationTest.EditEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCancelButton">
+                  </a> <!-- TestCancelButton -->
+                  <span class="method-name">TestCancelButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditContactButton">
+                  </a> <!-- TestEditContactButton -->
+                  <span class="method-name">TestEditContactButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditContactURL">
+                  </a> <!-- TestEditContactURL -->
+                  <span class="method-name">TestEditContactURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditEmailAddressPhoneValidation">
+                  </a> <!-- TestEditEmailAddressPhoneValidation -->
+                  <span class="method-name">TestEditEmailAddressPhoneValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditFunctionality">
+                  </a> <!-- TestEditFunctionality -->
+                  <span class="method-name">TestEditFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditNamesValidation">
+                  </a> <!-- TestEditNamesValidation -->
+                  <span class="method-name">TestEditNamesValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationTest.AddEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressBookAccessAddNewEntryPage">
+                  </a> <!-- AddressBookAccessAddNewEntryPage -->
+                  <span class="method-name">AddressBookAccessAddNewEntryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressBookAccessMainMenuPage">
+                  </a> <!-- AddressBookAccessMainMenuPage -->
+                  <span class="method-name">AddressBookAccessMainMenuPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddressBookListAllEntries">
+                  </a> <!-- AddressBookListAllEntries -->
+                  <span class="method-name">AddressBookListAllEntries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckFieldsAddNewEntryPage">
+                  </a> <!-- CheckFieldsAddNewEntryPage -->
+                  <span class="method-name">CheckFieldsAddNewEntryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av....)">
+                  </a> <!-- TestAddNewEntry(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av....) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av., 324-4639 Arcu. Rd., Fredericton, New Brunswick, Canada, E2M 8N7, eu@ligula.org, dolor@Nuncullamcorper.edu, semper.rutrum.Fusce@egestasblanditNam.co.uk, Mobile, 1-361-181-1934, Mobile, 1-100-541-1279, Mobile, 1-467-784-7954, faucibus.orci.luctus@auguescelerisque.com, quis.lectus.Nullam@ipsumDonecsollicitudin.com, Proin.non.massa@sapienimperdiet.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 R...)">
+                  </a> <!-- TestAddNewEntry(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 R...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 Risus Rd., Aklavik, Northwest Territories, Canada, X7E 1J2, auctor@ligula.com, vehicula.aliquet.libero@Suspendisse.org, tempor.arcu@elementumpurusaccumsan.net, Home, 1-503-847-4580, Home, 1-513-763-5366, Work Fax, 1-387-376-7377, feugiat.non@eratin.ca, tincidunt@metus.com, augue.id@anteblanditviverra.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing R...)">
+                  </a> <!-- TestAddNewEntry(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing R...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing Rd., Flin Flon, Manitoba, Canada, R1E 5G2, mauris.eu@enimCurabiturmassa.co.uk, mi.lorem@nec.ca, erat@Vivamus.org, Work Fax, 1-209-923-7093, Work Fax, 1-909-846-0166, Mobile, 1-534-641-0788, ligula.Donec.luctus@semper.edu, non@Etiam.net, metus.urna@hendreritDonecporttitor.edu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper R...)">
+                  </a> <!-- TestAddNewEntry(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper R...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper Road, 973 Facilisis Road, Charlottetown, Prince Edward Island, Canada, C3R 3X5, tortor@QuisquevariusNam.com, Sed.id.risus@malesuadafames.ca, a.neque@velquamdignissim.net, Home, 1-577-987-3326, Work, 1-858-572-8360, Mobile, 1-964-367-2673, vitae.semper@Proinvelit.org, pretium@idante.com, volutpat.nunc@Phaselluslibero.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590...)">
+                  </a> <!-- TestAddNewEntry(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590, 6860 Dui St., Stratford, Prince Edward Island, Canada, C4P 7L4, fermentum@sagittis.net, sed@nisl.edu, Suspendisse.eleifend@sollicitudinorci.net, Home Fax, 1-232-244-3230, Work Fax, 1-632-309-7403, Work, 1-487-472-2581, diam.lorem.auctor@ut.net, diam@auctornunc.org, felis.ullamcorper.viverra@dictumPhasellus.co.uk)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457...)">
+                  </a> <!-- TestAddNewEntry(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457, 9709 Rutrum Avenue, Brandon, Manitoba, Canada, R6M 6Y6, ultrices.sit.amet@ipsum.net, dolor@Fuscealiquet.com, odio.Nam.interdum@semmagnanec.org, Home, 1-405-187-4073, Home Fax, 1-224-441-7739, Work Fax, 1-259-109-9361, Nam@volutpatNulladignissim.ca, at@diamdictum.edu, gravida@dolor.co.uk)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Su...)">
+                  </a> <!-- TestAddNewEntry(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Su...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Suspendisse St., Newmarket, Ontario, Canada, L6N 8K8, mollis@fames.com, tellus@dictumsapienAenean.org, pede.et@Fuscefermentum.ca, Work, 1-987-638-5407, Work Fax, 1-498-134-3525, Home, 1-388-206-7667, nec@utpharetra.com, eu.metus@ametlorem.edu, eu.tellus@cursus.co.uk)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Ho...)">
+                  </a> <!-- TestAddNewEntry(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Ho...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Holman, Northwest Territories, Canada, X7V 6T4, at.pede.Cras@arcuAliquam.ca, dictum@semut.co.uk, vitae@suscipit.co.uk, Work Fax, 1-564-169-0958, Work Fax, 1-258-520-2178, Work Fax, 1-737-312-1791, ut.quam.vel@mattisornarelectus.edu, pharetra.Nam@massaVestibulum.co.uk, cursus.et.eros@mienimcondimentum.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 V...)">
+                  </a> <!-- TestAddNewEntry(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 V...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 Vivamus Av., Cambridge Bay, Nunavut, Canada, X1S 8K6, amet.orci.Ut@Inscelerisque.edu, ac.mattis.semper@massaVestibulumaccumsan.com, Sed.pharetra@nibhPhasellus.net, Work Fax, 1-737-441-8369, Home Fax, 1-337-154-5501, Home Fax, 1-802-523-5812, turpis@vulputatemauris.co.uk, mollis@tellusPhaselluselit.com, nulla.In.tincidunt@vitaemaurissit.ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 3...)">
+                  </a> <!-- TestAddNewEntry(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 3...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 351, 390 Rhoncus. Street, Watson Lake, Yukon, Canada, Y5A 3B3, at@utpellentesque.net, non@quamquisdiam.ca, erat.in@Proin.net, Home Fax, 1-512-577-0505, Work, 1-198-193-9115, Work, 1-494-443-3767, aliquet.metus@nisinibhlacinia.org, imperdiet@purusDuis.com, Mauris.vel.turpis@dolorsitamet.ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubili...)">
+                  </a> <!-- TestAddNewEntry(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubili...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubilia St., 8971 Interdum. Av., Saint John, New Brunswick, Canada, E3M 4E3, mollis.vitae.posuere@condimentumeget.ca, ac.sem@euismodenimEtiam.ca, semper@Phasellusliberomauris.ca, Work Fax, 1-979-573-2012, Home Fax, 1-430-644-4101, Work Fax, 1-598-457-0450, dui@erat.net, luctus.felis@sitamet.ca, vel.arcu.Curabitur@interdumenimnon.ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford,...)">
+                  </a> <!-- TestAddNewEntry(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford,...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford, Prince Edward Island, Canada, C5G 6N2, ad@natoquepenatibuset.net, Donec.at.arcu@Curabitur.edu, accumsan.neque@magnisdisparturient.com, Home Fax, 1-431-150-0324, Work, 1-608-984-7939, Work Fax, 1-631-270-4283, neque.Sed@utnullaCras.co.uk, Suspendisse.tristique@turpisNulla.ca, tempor.bibendum@Inornaresagittis.ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 490...)">
+                  </a> <!-- TestAddNewEntry(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 490...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 4907 Ut Rd., Chilliwack, British Columbia, Canada, V0Y 1A4, laoreet@inceptos.net, accumsan.convallis@montes.ca, condimentum.eget.volutpat@felispurus.com, Work Fax, 1-710-779-7342, Home Fax, 1-986-689-8189, Home Fax, 1-589-175-7032, posuere@elitsed.org, urna.nec.luctus@sit.net, luctus@semper.edu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Fa...)">
+                  </a> <!-- TestAddNewEntry(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Fa...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Facilisis Av., Saint John, New Brunswick, Canada, E3V 1G6, enim@magna.ca, sem.elit@velitegestas.co.uk, rutrum@liberolacusvarius.ca, Home Fax, 1-669-130-8560, Home, 1-745-605-8466, Work, 1-498-638-8442, interdum.enim@dolor.edu, quis.pede.Suspendisse@mifelisadipiscing.edu, vitae.erat.vel@metussitamet.edu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd.,...)">
+                  </a> <!-- TestAddNewEntry(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd.,...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd., P.O. Box 900, 1942 Vestibulum Street, Drayton Valley, Alberta, Canada, T8S 5N6, Maecenas.iaculis.aliquet@ipsumDonecsollicitudin.ca, urna.et.arcu@elit.co.uk, ligula.tortor.dictum@ipsumsodales.edu, Mobile, 1-341-928-0811, Work Fax, 1-225-263-4116, Work Fax, 1-854-725-8467, non.justo@Etiam.co.uk, in.lobortis.tellus@magnaSuspendisse.org, Curae@blanditNamnulla.edu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Str...)">
+                  </a> <!-- TestAddNewEntry(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Str...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Street, Dieppe, New Brunswick, Canada, E4L 4P2, blandit.Nam@pede.edu, diam.Duis.mi@Nullatempor.net, pede.Suspendisse@iaculisaliquet.net, Work, 1-228-919-2389, Home, 1-466-739-3819, Home, 1-721-369-5470, ut.molestie@risusa.org, velit.Cras.lorem@Integer.ca, elementum@Aliquam.edu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus ...)">
+                  </a> <!-- TestAddNewEntry(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus ...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus Av., P.O. Box 443, 1166 Neque. St., Spaniards Bay, Newfoundland and Labrador, Canada, A7N 2L8, Integer.eu.lacus@aliquetdiamSed.org, turpis.Aliquam.adipiscing@tinciduntcongueturpis.net, Duis@aduiCras.org, Work Fax, 1-658-618-7134, Home Fax, 1-851-461-3084, Work Fax, 1-806-897-2416, odio.sagittis@turpisnonenim.ca, luctus.aliquet.odio@leoin.ca, a.nunc.In@sedfacilisisvitae.org)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap...)">
+                  </a> <!-- TestAddNewEntry(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap #291-4020 Odio. Street, Municipal District, Nova Scotia, Canada, B6G 0R2, ultrices.posuere@dolordapibus.ca, ante@augue.edu, vitae.velit@convallisconvallisdolor.net, Mobile, 1-712-638-0302, Home Fax, 1-423-287-5651, Work Fax, 1-397-417-0744, eu.neque.pellentesque@dui.org, arcu.eu@Suspendisse.com, sociis.natoque@scelerisquesed.org)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqa...)">
+                  </a> <!-- TestAddNewEntry(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqa...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqaluit, Nunavut, Canada, X7B 7T8, consectetuer@disparturientmontes.co.uk, eros.turpis.non@Proin.com, eu@estNunclaoreet.org, Mobile, 1-847-171-0791, Work Fax, 1-838-701-6242, Home, 1-875-729-6458, nibh@facilisisnonbibendum.com, Quisque.purus.sapien@magnaetipsum.edu, Vivamus.sit@congueIn.org)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAddNewEntry(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primi...)">
+                  </a> <!-- TestAddNewEntry(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primi...) -->
+                  <span class="method-name">TestAddNewEntry</span>
+                  <span class="parameters">(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primis St., 3673 Turpis Street, Pangnirtung, Nunavut, Canada, X3P 9T7, ac@magnisdis.co.uk, commodo.tincidunt.nibh@magnaLoremipsum.org, mauris.sapien@urna.net, Home, 1-780-968-7633, Home, 1-772-708-7881, Work, 1-296-765-6830, libero.nec.ligula@cursusdiamat.net, placerat.augue@ipsumnonarcu.ca, arcu.et@odiotristique.ca)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEmailPhoneWebValidation">
+                  </a> <!-- TestEmailPhoneWebValidation -->
+                  <span class="method-name">TestEmailPhoneWebValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestNameFieldsValidation">
+                  </a> <!-- TestNameFieldsValidation -->
+                  <span class="method-name">TestNameFieldsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationTest.ViewEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDisplayedResults">
+                  </a> <!-- TestDisplayedResults -->
+                  <span class="method-name">TestDisplayedResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestReturnButton">
+                  </a> <!-- TestReturnButton -->
+                  <span class="method-name">TestReturnButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestViewEntryButton">
+                  </a> <!-- TestViewEntryButton -->
+                  <span class="method-name">TestViewEntryButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dhruv\Desktop\SST Harsh\TestAddBook\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AutomationTest.AddEntry&quot;/&gt;
+      &lt;class name=&quot;AutomationTest.EditEntry&quot;/&gt;
+      &lt;class name=&quot;AutomationTest.ViewEntry&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestAddNewEntry')
+data.setCell(0, 2, 'AutomationTest.AddEntry')
+data.setCell(0, 3, 17518);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestEditFunctionality')
+data.setCell(1, 2, 'AutomationTest.EditEntry')
+data.setCell(1, 3, 15720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestAddNewEntry')
+data.setCell(2, 2, 'AutomationTest.AddEntry')
+data.setCell(2, 3, 10294);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestAddNewEntry')
+data.setCell(3, 2, 'AutomationTest.AddEntry')
+data.setCell(3, 3, 9681);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestAddNewEntry')
+data.setCell(4, 2, 'AutomationTest.AddEntry')
+data.setCell(4, 3, 9630);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestEditNamesValidation')
+data.setCell(5, 2, 'AutomationTest.EditEntry')
+data.setCell(5, 3, 9014);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestEditEmailAddressPhoneValidation')
+data.setCell(6, 2, 'AutomationTest.EditEntry')
+data.setCell(6, 3, 8628);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestAddNewEntry')
+data.setCell(7, 2, 'AutomationTest.AddEntry')
+data.setCell(7, 3, 8191);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestAddNewEntry')
+data.setCell(8, 2, 'AutomationTest.AddEntry')
+data.setCell(8, 3, 8175);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestAddNewEntry')
+data.setCell(9, 2, 'AutomationTest.AddEntry')
+data.setCell(9, 3, 7866);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestAddNewEntry')
+data.setCell(10, 2, 'AutomationTest.AddEntry')
+data.setCell(10, 3, 7743);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestAddNewEntry')
+data.setCell(11, 2, 'AutomationTest.AddEntry')
+data.setCell(11, 3, 7272);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestAddNewEntry')
+data.setCell(12, 2, 'AutomationTest.AddEntry')
+data.setCell(12, 3, 6837);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestAddNewEntry')
+data.setCell(13, 2, 'AutomationTest.AddEntry')
+data.setCell(13, 3, 6735);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestAddNewEntry')
+data.setCell(14, 2, 'AutomationTest.AddEntry')
+data.setCell(14, 3, 6608);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestAddNewEntry')
+data.setCell(15, 2, 'AutomationTest.AddEntry')
+data.setCell(15, 3, 6514);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestAddNewEntry')
+data.setCell(16, 2, 'AutomationTest.AddEntry')
+data.setCell(16, 3, 6423);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestAddNewEntry')
+data.setCell(17, 2, 'AutomationTest.AddEntry')
+data.setCell(17, 3, 6378);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestAddNewEntry')
+data.setCell(18, 2, 'AutomationTest.AddEntry')
+data.setCell(18, 3, 6335);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestAddNewEntry')
+data.setCell(19, 2, 'AutomationTest.AddEntry')
+data.setCell(19, 3, 6331);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestAddNewEntry')
+data.setCell(20, 2, 'AutomationTest.AddEntry')
+data.setCell(20, 3, 6118);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestAddNewEntry')
+data.setCell(21, 2, 'AutomationTest.AddEntry')
+data.setCell(21, 3, 6049);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestAddNewEntry')
+data.setCell(22, 2, 'AutomationTest.AddEntry')
+data.setCell(22, 3, 5868);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestClearButton')
+data.setCell(23, 2, 'AutomationTest.EditEntry')
+data.setCell(23, 3, 3327);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestDisplayedResults')
+data.setCell(24, 2, 'AutomationTest.ViewEntry')
+data.setCell(24, 3, 2856);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestReturnButton')
+data.setCell(25, 2, 'AutomationTest.ViewEntry')
+data.setCell(25, 3, 2437);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestNameFieldsValidation')
+data.setCell(26, 2, 'AutomationTest.AddEntry')
+data.setCell(26, 3, 2386);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'CheckFieldsAddNewEntryPage')
+data.setCell(27, 2, 'AutomationTest.AddEntry')
+data.setCell(27, 3, 2368);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestViewEntryButton')
+data.setCell(28, 2, 'AutomationTest.ViewEntry')
+data.setCell(28, 3, 2243);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestEditContactURL')
+data.setCell(29, 2, 'AutomationTest.EditEntry')
+data.setCell(29, 3, 2009);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'AddressBookAccessAddNewEntryPage')
+data.setCell(30, 2, 'AutomationTest.AddEntry')
+data.setCell(30, 3, 1980);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestCancelButton')
+data.setCell(31, 2, 'AutomationTest.EditEntry')
+data.setCell(31, 3, 1949);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestEmailPhoneWebValidation')
+data.setCell(32, 2, 'AutomationTest.AddEntry')
+data.setCell(32, 3, 1652);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestEditContactButton')
+data.setCell(33, 2, 'AutomationTest.EditEntry')
+data.setCell(33, 3, 1546);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'AddressBookListAllEntries')
+data.setCell(34, 2, 'AutomationTest.AddEntry')
+data.setCell(34, 3, 1296);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'AddressBookAccessMainMenuPage')
+data.setCell(35, 2, 'AutomationTest.AddEntry')
+data.setCell(35, 3, 1251);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.AddEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.EditEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.ViewEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.AddEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.EditEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.ViewEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.AddEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddressBookAccessAddNewEntryPage</span>
+                <span class="method-start">7986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">9966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">10028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddressBookAccessMainMenuPage</span>
+                <span class="method-start">14617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">15911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddressBookListAllEntries</span>
+                <span class="method-start">20780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">22076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">22125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckFieldsAddNewEntryPage</span>
+                <span class="method-start">26786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">29158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">29348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Friend, Dorian, Mullins, Laoreet Posuere Enim Industries, 7613 Consectetuer St., Ap #853-4513 Cubili...)</span>
+                <span class="method-start">33985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">40363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">40413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Business, Noah, Velez, Magnis Dis Parturient Institute, 1250 Viverra. Av., Ap #293-5496 Non St., 490...)</span>
+                <span class="method-start">44539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">50588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">50638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Business, Denton, Spencer, Lorem Ipsum Corporation, P.O. Box 944, 6525 Risus St., Ap #245-3944 Primi...)</span>
+                <span class="method-start">54787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">61123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">61178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Family, Graham, Mcpherson, Nisl Sem Consequat Ltd, P.O. Box 597, 6329 At, Street, 726-4405 Dolor Av....)</span>
+                <span class="method-start">67319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">73187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">73236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Family, Herrod, Dotson, Massa Industries, Ap #358-2564 Aliquet. Rd., P.O. Box 174, 2545 Commodo Rd.,...)</span>
+                <span class="method-start">78156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">84579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">84637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Business, Nasim, Daniels, Fringilla Ornare Industries, 9419 Hymenaeos. Avenue, 1841 Erat Rd., 2836 V...)</span>
+                <span class="method-start">90005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">98197 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">98252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Business, Alfonso, Koch, Nec Quam Inc., Ap #757-5284 Enim. St., 754-5354 Sodales Rd., Ap #902-3518 R...)</span>
+                <span class="method-start">104218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">110549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">110604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Other, Andrew, Estes, Vivamus Ltd, Ap #461-7460 Cursus Rd., 6320 Arcu Rd., P.O. Box 144, 8204 Eu Str...)</span>
+                <span class="method-start">115357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">121871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">121937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Business, Malik, Mathews, Ipsum Curabitur Consequat Ltd, P.O. Box 398, 5584 Ac St., 631-7465 Luctus ...)</span>
+                <span class="method-start">127081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">133690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">133756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Family, Mufutau, Wolf, Pellentesque Limited, Ap #980-2209 Tortor Rd., 339-7366 Pede. Av., P.O. Box 3...)</span>
+                <span class="method-start">138853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">144972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">145034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Friend, Patrick, Baxter, Neque Sed Dictum Institute, 912-8029 Turpis Street, 1360 Fringilla. St., Ap...)</span>
+                <span class="method-start">150924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">158196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">158273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Friend, Tiger, Dickson, Lobortis Ultrices LLP, Ap #437-5395 Orci Rd., 6177 Ullamcorper, Rd., 9831 Su...)</span>
+                <span class="method-start">164149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">170884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">170970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Family, Fuller, Phelps, Neque Sed Corp., Ap #357-6553 Consequat St., 276-5545 Quam St., P.O. Box 457...)</span>
+                <span class="method-start">175771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">182608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">182743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Friend, Shad, Gates, Sed Turpis Ltd, Ap #957-2158 Proin Avenue, 675-2800 Nullam Avenue, P.O. Box 590...)</span>
+                <span class="method-start">189267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">197011 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">197126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Other, Luke, Morgan, A Dui LLP, 820 Et Road, 717-2381 Aliquam Street, Ap #572-5792 Dictum Avenue, Ho...)</span>
+                <span class="method-start">220137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">229824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">230090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Friend, Harlan, Kerr, Orci Foundation, 4894 Nunc Rd., Ap #187-8969 Magna, St., 2055 Pretium Rd., Iqa...)</span>
+                <span class="method-start">244334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">252201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">252292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Family, Isaac, Holloway, Lobortis Inc., P.O. Box 536, 1240 Eu, Av., 984 Pede, Rd., 1915 Adipiscing R...)</span>
+                <span class="method-start">338077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">355595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">355735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Other, Tad, Lynn, Sociis Natoque Penatibus Inc., P.O. Box 788, 413 Lectus St., Ap #554-6085 Semper R...)</span>
+                <span class="method-start">362780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">373075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">373293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Other, Ian, Crane, Donec Egestas Aliquam Associates, Ap #537-7579 Id Rd., 2790 Non, Av., 888-8300 Fa...)</span>
+                <span class="method-start">389595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">399225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">399681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAddNewEntry(Other, Vernon, Charles, In Corp., 714-3552 Tempor, Rd., 7842 In Street, 509-6064 Vel Rd., Stratford,...)</span>
+                <span class="method-start">527732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">535908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">536175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEmailPhoneWebValidation</span>
+                <span class="method-start">550234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">551886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">552024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestNameFieldsValidation</span>
+                <span class="method-start">585268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">587654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">587787 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.EditEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">587792 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">587795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCancelButton</span>
+                <span class="method-start">605313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">607263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">607386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestClearButton</span>
+                <span class="method-start">633953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">637301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">637442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditContactButton</span>
+                <span class="method-start">654521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">656068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">656278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditContactURL</span>
+                <span class="method-start">674798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">676808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">677006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditEmailAddressPhoneValidation</span>
+                <span class="method-start">686341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">694970 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">695104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditFunctionality</span>
+                <span class="method-start">702918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">718638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">718907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditNamesValidation</span>
+                <span class="method-start">731243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">740258 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">740505 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.ViewEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">740508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">740513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDisplayedResults</span>
+                <span class="method-start">748056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">750912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">751216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestReturnButton</span>
+                <span class="method-start">769810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">772247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">772516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestViewEntryButton</span>
+                <span class="method-start">782490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">784733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">784942 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.AddEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">784949 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.EditEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">784950 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.ViewEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">784950 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.AddEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">785057 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.EditEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">785058 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AutomationTest.ViewEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">785058 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
